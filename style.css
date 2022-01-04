@@ -8,8 +8,11 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 20px;
+}
 span{
-    color: orange;
+    color: rgb(255, 60, 0);
 }
 section{
     display: flex;
@@ -32,4 +35,16 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-width{
+    width: 50%;
+    padding: 5%;
+}
+.dream-width img{
+    width: 80%;
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
